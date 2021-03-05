@@ -13,7 +13,7 @@ class file
        
         public:
 
-                void loop(); //pêtla wczytuj¹ca z pliku
+                void loop(); //pÄ™tla wczytujÄ…ca z pliku
 
 };
 
@@ -49,7 +49,6 @@ void file::loop()
 					  }
 					  cout<<endl;
 						pom++;
-						
 						ktora++;
 						
 					  for(int i=0;i<20;i++)
@@ -111,13 +110,14 @@ void file::loop()
 //						ile1=0;
 //						pom=0;
 //					}
-
-   	   }
-
     		if(rek==0)
 		  {
 		  	cout<<"obrazek jest rekurencyjny";
 		  }
+
+   	   }
+
+
           inFile.close();
                    
        
